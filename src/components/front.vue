@@ -27,7 +27,7 @@ const calcDate = (birthday) => {
         <header class="header">
           <div class="header-box">
             <div class="avatar wow inShow no-print">
-              <img src="../../public/img/logo.jpg" alt="logo" class="img-responsive">
+              <img src="@/img/logo.jpg" alt="logo" class="img-responsive">
             </div>
             <h1 class="name text-center wow inShow no-print">{{userInfo.nickname}}</h1>
             <h1 class="name text-center hide show-print-block">{{userInfo.name}}</h1>
@@ -263,7 +263,7 @@ const calcDate = (birthday) => {
                 <i class="fa fa-github"></i>
                 <h3 class="text-light">{{usually.name}}</h3>
                 <p>{{usually.description}}</p>
-                <img src="../../public/img/logo-master.png" alt="公众号" class="img-responsive">
+                <img src="@/img/logo-master.png" alt="公众号" class="img-responsive">
               </div>
             </div>
           </div>
